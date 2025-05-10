@@ -1,0 +1,35 @@
+.container {
+  border: 1px solid #fff;
+  background: linear-gradient(45deg, rgba(255, 0, 0, 0.295), rgba(0, 0, 0, 0.549));
+  display: flex;
+  width: fit-content;
+  padding: 10px;
+  border-radius: 20px;
+  flex-direction: column;
+
+  .title {
+    color: lightblue;
+    background: fixed;
+    text-align: center;
+    margin: 5px;
+  }
+
+  .logo {
+    background-size: cover;
+    border-radius: 30px;
+  }
+
+  .pay {
+    text-align: center;
+    border: 1px solid;
+    color: #fff;
+    border-radius: 20px;
+    padding: 5px;
+    background: rgba(0, 0, 0, 0.396);
+    cursor: pointer;
+
+    &:hover {
+      scale: 1.1;
+    }
+  }
+}
