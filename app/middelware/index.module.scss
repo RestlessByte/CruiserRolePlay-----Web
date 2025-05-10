@@ -1,0 +1,32 @@
+.container {
+  display: flex;
+  flex-direction: column;
+
+  .title {
+    text-align: center;
+    color: orange;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .loading {
+      border: 2px solid #fff;
+      border-radius: 60%;
+      padding: 50px;
+      background: linear-gradient(45deg, rgb(79, 21, 21), blue, black, green, lime, #691818, rgb(122, 27, 43), rgb(73, 49, 73));
+      top: 3rem;
+      position: relative;
+      animation: 20s rotate infinite;
+    }
+  }
+}
+
+@keyframes rotate {
+  to {
+    rotate: 600deg;
+  }
+
+  from {
+    rotate: 60000deg;
+  }
+}

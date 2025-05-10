@@ -1,0 +1,55 @@
+.container {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  display: flex;
+  flex-direction: column;
+
+  header {
+    display: flex;
+    position: relative;
+    padding: 5px;
+    border: 1px solid pink;
+    border-radius: 30px;
+    background: linear-gradient(35deg, rgba(60, 25, 25, 0.179), #ffffff16);
+
+    .logo {
+      margin: 5px;
+      background-size: cover;
+      border-radius: 10px;
+    }
+
+    .title {
+      color: #ffff;
+      position: relative;
+      top: 15px;
+      background: fixed;
+      margin-left: 40px;
+    }
+
+    .nav {
+      background: fixed;
+      position: relative;
+      display: flex;
+      margin-left: 60%;
+      flex-wrap: wrap;
+
+
+      .button {
+        width: fit-content;
+        height: fit-content;
+        padding: 10px;
+        margin: 10px;
+        position: relative;
+        background: linear-gradient(45deg, #2da593, rgba(84, 6, 210, 0.449), rgb(75, 75, 165), #2da593);
+        border: transparent;
+        border-radius: 10px 20px 25px;
+        color: #ffff;
+        animation: all 3.5s ease;
+        cursor: pointer;
+
+        &:hover {
+          transform: scale(1.2);
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,55 @@
+.container {
+  display: flex;
+  flex-direction: column;
+
+  .title {
+    color: white;
+    text-align: center;
+  }
+
+  .containerHowStartGame {
+    border: 1px solid rgb(177, 145, 145);
+    width: fit-content;
+    height: fit-content;
+    padding: 5px;
+    position: relative;
+    top: 45vh;
+    border-radius: 10px;
+    background: linear-gradient(4deg, rgba(67, 14, 14, 0.492), rgba(0, 40, 0, 0.236));
+
+    .containerHowStartGameTitle {
+      background: fixed;
+      color: #fff;
+      display: flex;
+      justify-content: center;
+    }
+
+    .containerHowStartGameDocs {
+      background: fixed;
+      display: flex;
+      position: relative;
+      flex-direction: column;
+
+      .containerHowStartGameDocsIndex {
+        color: lime;
+        border: 1px solid #fff;
+        border-radius: 30%;
+        width: fit-content;
+        background: rgba(0, 0, 0, 0.397);
+        padding: 5px;
+      }
+
+      .containerHowStartGameDocsText {
+        color: #fff;
+        background: fixed;
+        margin-left: 5%;
+        border: 1px solid brown;
+        background: linear-gradient(45deg, rgba(255, 0, 0, 0.353), rgb(54, 54, 121));
+        flex-wrap: wrap;
+        border-radius: 10px;
+        padding: 5px;
+      }
+    }
+  }
+
+}
