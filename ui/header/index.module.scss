@@ -9,7 +9,8 @@
     padding: 5px;
     border: 1px solid pink;
     border-radius: 30px;
-    background: linear-gradient(35deg, rgba(60, 25, 25, 0.179), #ffffff16);
+    filter: drop-shadow(0 0 0.75rem rgb(197, 142, 142));
+    background: linear-gradient(35deg, rgba(153, 150, 150, 0.179), #c6adad16);
 
     .logo {
       margin: 5px;
@@ -25,29 +26,35 @@
       margin-left: 40px;
     }
 
-    .nav {
+    .navContainer {
       background: fixed;
-      position: relative;
       display: flex;
-      margin-left: 60%;
-      flex-wrap: wrap;
+      justify-content: flex-end;
+      margin-left: 50%;
 
-
-      .button {
-        width: fit-content;
-        height: fit-content;
-        padding: 10px;
+      .nav {
+        background: fixed;
+        display: flex;
         margin: 10px;
-        position: relative;
-        background: linear-gradient(45deg, #2da593, rgba(84, 6, 210, 0.449), rgb(75, 75, 165), #2da593);
-        border: transparent;
-        border-radius: 10px 20px 25px;
-        color: #ffff;
-        animation: all 3.5s ease;
-        cursor: pointer;
+        flex-wrap: wrap;
 
-        &:hover {
-          transform: scale(1.2);
+
+        .button {
+          width: fit-content;
+          height: fit-content;
+          padding: 10px;
+          margin: 10px;
+          position: relative;
+          background: linear-gradient(45deg, #2da593, rgba(84, 6, 210, 0.449), rgb(75, 75, 165), #2da593);
+          border: transparent;
+          border-radius: 10px 20px 25px;
+          color: #ffff;
+          animation: all 3.5s ease;
+          cursor: pointer;
+
+          &:hover {
+            transform: scale(1.2);
+          }
         }
       }
     }
